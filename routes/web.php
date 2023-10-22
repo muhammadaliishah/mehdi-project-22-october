@@ -29,7 +29,7 @@ use function Ramsey\Uuid\v1;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// worked
 Route::get('adduser' , function (){
     User::create([
         'name' => 'test',
